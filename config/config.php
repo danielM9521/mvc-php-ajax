@@ -2,7 +2,7 @@
 //DEFINICION DE CONSTANTES
 
     //Constante de uRL para no perder el diseño independiente al momento de la navegacio
-    define('URL','http://localhost/mvc_php/');
+    define('URL','http://localhost/mvc-php-ajax/');
 
     //Constantes de la connexion a la base de datos
     define('HOST','localhost');
