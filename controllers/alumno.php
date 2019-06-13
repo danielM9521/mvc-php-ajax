@@ -11,7 +11,7 @@
             //Obtenemos todos los registros de la tabla alumno
             $alumnos=$this->model->get();
             //Convertimos el resultado a formato JSON y se lo asignamos a una variable para poder mostrarlo en la vista
-            //$this->view->alumnos= json_encode($alumnos);
+            // $this->view->alumnos= json_encode($alumnos);
             $this->view->alumnos= $alumnos;
             $this->view->render('alumno/index2');
         }
